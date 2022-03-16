@@ -12,8 +12,8 @@ mkdir -p ~/.shell-hooks
 git clone https://github.com/tvaintrob/auto-poetry-env.git ~/.shell-hooks/auto-poetry-env
 
 # for zsh
-echo "[ -f ~/.shell-hooks/auto-poetry-env/installer.sh ] && eval \"$(~/.shell-hooks/auto-poetry-env/installer.sh)\"" >> ~/.zshrc
+echo '[ -f ~/.shell-hooks/auto-poetry-env/installer.sh ] && eval "$(~/.shell-hooks/auto-poetry-env/installer.sh)"'>> ~/.zshrc
 
 # for bash
-echo "[ -f ~/.shell-hooks/auto-poetry-env/installer.sh ] && eval \"$(~/.shell-hooks/auto-poetry-env/installer.sh)\"" >> ~/.bashrc
+echo '[ -f ~/.shell-hooks/auto-poetry-env/installer.sh ] && eval "$(~/.shell-hooks/auto-poetry-env/installer.sh)"' >> ~/.bashrc
 ```
